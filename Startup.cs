@@ -28,7 +28,7 @@ namespace RegistroPrestamo
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddBlaroredToast();
+            services.AddBlazoredToast();
             services.AddSingleton<WeatherForecastService>();
         }
 

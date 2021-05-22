@@ -1,8 +1,8 @@
 ﻿@page "/Prestamos"
 @page "/Prestamos/{PrestamoId:int}"
 
-@inject PersonasBLL PersonasBLL
-@inject PrestamosBLL PrestamosBLL
+@using RegistroPrestamo.BLL;
+@using RegistroPrestamo.Models
 @inject IToastService toast
 
 <EditForm Model="Prestamo" OnValidSubmit="Guardar">

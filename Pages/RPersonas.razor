@@ -1,6 +1,9 @@
 ﻿@page "/Personas"
 @page "/Personas/{PersonaId:int}"
 @inject IToastService toast
+@using RegistroPrestamo.BLL;
+@using RegistroPrestamo.Models;
+ 
 
 
 <EditForm Model="Persona" OnValidSubmit="Guardar">
