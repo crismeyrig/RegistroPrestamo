@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Blazored.Toast;
 
 namespace RegistroPrestamo
 {
@@ -27,6 +28,7 @@ namespace RegistroPrestamo
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            services.AddBlaroredToast();
             services.AddSingleton<WeatherForecastService>();
         }
 
